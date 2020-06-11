@@ -70,7 +70,7 @@ MainWidget::MainWidget(QWidget *parent)
     // 可以使用 =    (但是只读,需要[]()之后加入关键字mutable)
     // 把外部所有变量均传入
     // this: 类中所有成员以值传递方式
-    // &: 把外部所有局部变量，引用符号
+    // &: 把外部所有局部变量，引用符号（尽量不要使用)
     connect(b4,&QPushButton::released,this,[b4]() mutable
     {
         b4->setText("hhhh");
