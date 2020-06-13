@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-06-11T21:56:15
+# Project created by QtCreator 2020-06-13T16:04:33
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 04_QTzuobiao
+TARGET = 06_Dialog
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,11 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mywidget.cpp \
-    mybutton.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mywidget.h \
-    mybutton.h
-
-CONFIG += c++11
+        mainwindow.h
